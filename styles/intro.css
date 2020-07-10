@@ -1,0 +1,15 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #000;
+}
+
+.intro__image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.intro__name {
+  text-align: center;
+  font-size: 2.5rem;
+}
