@@ -12,12 +12,14 @@
 }
 
 .siteTitle {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
 }
 
 .navBar {
     border: 1px solid #000;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .navBar__link {
