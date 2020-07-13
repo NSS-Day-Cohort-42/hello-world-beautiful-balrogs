@@ -1,0 +1,22 @@
+.people {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0px;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.person__image {
+  width: 15rem;
+  border-radius: 10px;
+}
