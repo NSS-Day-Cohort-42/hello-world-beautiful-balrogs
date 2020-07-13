@@ -1,6 +1,25 @@
 @import 'header.css';
 @import 'intro.css';
-
+@import 'cities.css';
 body {
-  background-color: #ddd;
+    background-color: #ddd;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content--left {
+    flex: 3
+}
+
+.content--right {
+    flex: 1;
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
 }
