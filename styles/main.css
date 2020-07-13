@@ -5,7 +5,7 @@
 @import 'landmarks.css';
 @import 'people.css';
 body {
-    background-color: #ddd;
+    background-color: #b2aa8e;
 }
 
 .bottom {
@@ -15,7 +15,7 @@ body {
 
 .content--left {
     flex: 3;
-    border-right: 4px solid #000;
+    border-right: 4px solid #207b3d;
 }
 
 .content--right {
@@ -28,4 +28,8 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.card {
+    background-color: #DEDACE;
 }
