@@ -8,20 +8,20 @@ const icelandLandmarks = [
   {
     name: "Dettifoss Waterfall",
     image: "./images/iceland/dettifossWaterfall.jpg",
-    imageAlt: "",
-    description: ""
+    imageAlt: "Huge Waterfall with a few people looking from the foreground",
+    description: "Enormous Dettifoss Waterfall is the largest in Iceland, and reputed to be one of the most beautiful waterfalls in the world. It plummets 330 ft. There are a few hiking trails you can use to take in the massive and thundering falls."
   },
   {
-    name: "",
-    image: "",
-    imageAlt: "",
-    description: ""
+    name: "Northern Lights",
+    image: "./images/iceland/northernLights.jpg",
+    imageAlt: "view of the sky with swirls of green",
+    description: "Also called Aurora Borealis, the lights resemble green clouds in the sky to the naked eye, and can really come to life through the camera."
   },
   {
-    name: "",
-    image: "",
-    imageAlt: "",
-    description: ""
+    name: "Vik Black Sand beaches",
+    image: "./images/iceland/VikBlackSandBeach.jpg",
+    imageAlt: "Beach with black sand and lush green cliffs in the background",
+    description: "The black sand beaches of Vik are a very popular attraction on the shores of Reynisfjara at the southern tip of Iceland. People have been known to get injured by the especially strong waves and currents of these ocean waters, so be extremely cautious as you marvel at the alluring black sands and stunning views!"
   }
 ]
 
