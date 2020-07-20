@@ -21,3 +21,6 @@ const landmarks=[
         description:"Kula WILD Adventure Park is Fiji's biggest Family Fun Park and an ecological preserve in Fiji. It is located on Fiji's largest island, Viti Levu, near Sigatoka."
     }
 ]
+export const useFijiLandmark=()=>{
+    return landmarks.slice()
+}

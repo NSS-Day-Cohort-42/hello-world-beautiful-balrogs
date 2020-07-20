@@ -3,6 +3,6 @@ const intro={
     imageAlt:"tropical fish naer a beach",
     name:"Fiji"
 }
-export const introList=()=>{
-    return intro
+export const useFijiIntro=()=>{
+    return useFijiIntro
 }

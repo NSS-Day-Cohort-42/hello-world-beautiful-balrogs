@@ -18,6 +18,6 @@ const cities=[
         imageAlt:"ariel image of Levuka"
     }
 ]
-export const useCity=()=>{
+export const useFijiCity=()=>{
     return cities.slice();
 }
