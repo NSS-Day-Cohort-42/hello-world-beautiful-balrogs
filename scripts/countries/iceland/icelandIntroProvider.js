@@ -1,7 +1,7 @@
 const icelandIntro = [
   {
     image: "./images/iceland/icelandmainphoto.jpg",
-    imageAlt: "iceland landscape with water in foreground and mountains in the background",
+    imageAlt: "Iceland landscape with water in foreground and mountains in the background",
     name: "Iceland"
   }
 ]
