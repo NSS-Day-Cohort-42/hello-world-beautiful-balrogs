@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;400&display=swap');
 @import 'header.css';
 @import 'intro.css';
 @import 'cities.css';
+@import 'landmarks.css';
+@import 'people.css';
 body {
-    background-color: #ddd;
+    background-color: #b2aa8e;
 }
 
 .bottom {
@@ -11,7 +14,8 @@ body {
 }
 
 .content--left {
-    flex: 3
+    flex: 3;
+    border-right: 4px solid #207b3d;
 }
 
 .content--right {
@@ -22,4 +26,10 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.card {
+    background-color: #DEDACE;
 }
