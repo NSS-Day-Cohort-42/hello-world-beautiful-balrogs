@@ -19,3 +19,7 @@ const tuvaluLandmarks = [{
     imageAlt: "picture of the Kogatabu Funafuti Conservation Area sign",
     description: "The Kogatabu Funafuti Conservation Area is 33 square kilometers of water and land on the west side of the Atoll. There are six islets with native broadleaf forest and coral sand beaches within the protected area filled with many sea creatures and sea birds. A variety of colorful fish and sea turtles can be seen through clear blue lagoon while coral reefs and bommies provide for excellent snorkeling and scuba diving."
 }]
+
+export const useTuvaluLandmarks = () => {
+    return tuvaluLandmarks.slice()
+}
