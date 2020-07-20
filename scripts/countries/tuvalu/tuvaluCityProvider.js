@@ -1,7 +1,7 @@
 const tuvaluCities = [{
     name: "Funafuti",
     image: "images/tuvalu/tuvalu.jpg",
-    iamgeAlt: "picture of the city of Funafuti"
+    imageAlt: "picture of the city of Funafuti"
 }, {
     name: "Nanumanga",
     image: "images/tuvalu/NanumangaIsland.jpg",
