@@ -4,5 +4,5 @@ const intro=[{
     name:"Fiji"
 }]
 export const useFijiIntro=()=>{
-    return useFijiIntro
+    return intro.slice()
 }

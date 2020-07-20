@@ -11,6 +11,6 @@ const leaders=[
         description:"the 8th and current prime minister of Fiji since 2007."
     }
 ]
-export const useFijiHeadOfState=()=>{
+export const useFijiHeadsOfState=()=>{
     return leaders.slice()
 }

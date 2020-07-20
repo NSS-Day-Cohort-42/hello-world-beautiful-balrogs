@@ -1,7 +1,7 @@
 const cities=[
     {
         name:"Suva",
-        immage:"images/fiji/suva.jpg",
+        image:"images/fiji/suva.jpg",
         imageAlt:"ariel image of suva"
     },
     {
@@ -18,6 +18,6 @@ const cities=[
         imageAlt:"ariel image of Levuka"
     }
 ]
-export const useFijiCity=()=>{
+export const useFijiCites=()=>{
     return cities.slice();
 }
