@@ -3,7 +3,7 @@ const romaniaCities = [
     {name: "Bucharest",
     imageAlt: "Photo of Bucharest",
     image: "./images/romania/bucharest.jpg"
-    }
+    },
 
     {name: "Timosoara",
     imageAlt: "Photo of Timosoara",
