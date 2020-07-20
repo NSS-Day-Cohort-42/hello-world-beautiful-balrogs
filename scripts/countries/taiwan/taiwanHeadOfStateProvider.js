@@ -22,7 +22,7 @@ const taiwanHeadsOfState = [
     image: "./images/taiwan/chiangKaiShek.jpeg",
     imageAlt: "Chiang Kai-shek",
     description: "Chiang Kai-shek was a Chinese nationalist politician who served as the leader of the Republic of China from 1928 to 1975. He is a somewhat contentious historical figure, as he was responsible for both great social reform and economic prosperity in Taiwan, as well as some questionable authoritarian power grabs and purges."
-  },
+  }
 ]
 
 export const useTaiwanHeadsOfState = () => taiwanHeadsOfState.slice()
