@@ -5,15 +5,15 @@ const tuvaluCities = [{
 }, {
     name: "Nanumanga",
     image: "images/tuvalu/NanumangaIsland.jpg",
-    iamgeAlt: "picture of Nanumanga"
+    imageAlt: "picture of Nanumanga"
 }, {
     name: "Nukufetau",
     image: "images/tuvalu/Nukufetau.jpg",
-    iamgeAlt: "picture of the village of Savave Village in Nukufetau"
+    imageAlt: "picture of the village of Savave Village in Nukufetau"
 }, {
     name: "Nanumea",
     image: "images/tuvalu/Nanumea.jpg",
-    iamgeAlt: "picture of island of Nanumea"
+    imageAlt: "picture of island of Nanumea"
 }]
 
 export const useTuvaluCities = () => {
