@@ -8,33 +8,33 @@ import { cityHTMLRepresenter } from "../cityComponent/cityHTMLRepresenter.js"
 
 export const cityList = (countryName) => {
 
-  const contentElement = document.querySelector(".content--left")
+    const contentElement = document.querySelector(".content--left")
 
-  let cityContent
-  switch (countryName) {
-    case "taiwan":
-      cityContent = useTaiwanCities()
-      break;
-    case "tuvalu":
-      cityContent = useTuvaluCities()
-      break;
-    case "iceland":
-      cityContent = useIcelandCities()
-      break;
-    case "romania":
-      cityContent = useRomaniaCities()
-      break;
-    case "fiji":
-      cityContent = useFijiCities()
-      break;
-  }
+    let cityContent
+    switch (countryName) {
+        case "taiwan":
+            cityContent = useTaiwanCities()
+            break;
+        case "tuvalu":
+            cityContent = useTuvaluCities()
+            break;
+        case "iceland":
+            cityContent = useIcelandCities()
+            break;
+        case "romania":
+            cityContent = useRomaniaCities()
+            break;
+        case "fiji":
+            cityContent = useFijiCities()
+            break;
+    }
 
-  let cityHTMLRepresentation = ""
-  for (const cityObj of cityContent) {
-    cityHTMLRepresentation += cityHTMLRepresenter(cityObj)
-  }
+    let cityHTMLRepresentation = ""
+    for (const cityObj of cityContent) {
+        cityHTMLRepresentation += cityHTMLRepresenter(cityObj)
+    }
 
-  contentElement.innerHTML += `
+    contentElement.innerHTML += `
     <h2 class="sectionTitle">Cities To Visit</h2>
     <article class="list cities">
     ${cityHTMLRepresentation}
