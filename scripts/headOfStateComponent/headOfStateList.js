@@ -19,7 +19,7 @@ export const headOfStateList = (headOfStateName) => {
         headOfStateContent = useRomaniaHeadsOfState()
     } else if (headOfStateName === 'taiwan') {
         headOfStateContent = useTaiwanHeadsOfState()
-    } else {
+    } else if (headOfStateName === 'iceland') {
         headOfStateContent = useIcelandHeadsOfState()
     }
 
@@ -29,6 +29,8 @@ export const headOfStateList = (headOfStateName) => {
     }
     contentElement.innerHTML += `
     <h2 class="sectionTitle">Politicians</h2>
-    <aside class="list people">${headOfStateHTMLRepresentation}</aside>
+    <aside class="list people">
+    ${headOfStateHTMLRepresentation}
+    </aside>
     `
 }
