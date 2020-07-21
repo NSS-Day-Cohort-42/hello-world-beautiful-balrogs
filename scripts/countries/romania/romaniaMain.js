@@ -1,11 +1,12 @@
-/*
-import {} from "./scripts/introComponent/introList.js"
-import {} -intro
-import {} -cities 
-import {} -landmarks
-import {} -headsofstate
+import { navBarLinkList} from "../../navBarLinkComponent/navBarLinkList.js"
+import { introList } from "../../introComponent/introList.js"
+import { cityList } from "../../cityComponent/cityList.js"
+//import { landmarkList } from "../../landmarkComponent/landmarkList.js"
+import { headOfStateList } from "../../headOfStateComponent/headOfStateList.js"
 
--invoke functions from each import statement below
+navBarLinkList()
+introList('romania')
+cityList('romania')
+//landmarkList('romania')
+headOfStateList('romania')
 
-
-*/
