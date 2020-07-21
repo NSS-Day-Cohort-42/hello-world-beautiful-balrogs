@@ -4,7 +4,7 @@ import { landmarkList } from "../../landmarkComponent/landmarkList.js"
 import { introList } from "../../introComponent/introList.js"
 
 
-// headOfStateList("tuvalu")
-// cityList("tuvalu")
+// headOfStateList("fiji")
+// cityList("fiji")
 landmarkList("fiji")
 introList("fiji")
