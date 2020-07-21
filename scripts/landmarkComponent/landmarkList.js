@@ -8,7 +8,7 @@ import { landmarkHTMLRepresenter } from "./landmarkHTMLRepresenter.js"
 
 export const landmarkList = (countryName) => {
 
-  const contentElement = document.querySelector(".landmarkList")
+  const contentElement = document.querySelector(".content--left")
 
   let landmarkContent
   switch (countryName) {
@@ -34,8 +34,10 @@ export const landmarkList = (countryName) => {
     landmarkHTMLRepresentation += landmarkHTMLRepresenter(landmarkObj)
   }
 
-  contentElement.innerHTML += `
+  contentElement.innerHTML += `<h2 class="sectionTitle">Landmarks</h2>
+  <article class="list landmarks">
   ${landmarkHTMLRepresentation}
+  </article>
   `
 
 }
