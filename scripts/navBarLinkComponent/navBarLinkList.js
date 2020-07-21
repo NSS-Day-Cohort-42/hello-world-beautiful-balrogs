@@ -10,9 +10,8 @@ export const navBarLinkList = () => {
         navBarLinkListHTML += navBarLinkHTMLRepresenter(navBarLinkObj)
 
     contentElement.innerHTML =
-        `<section class="navBarLinks">
+        `
         ${navBarLinkListHTML}
-        </section>
         `
     }
 }

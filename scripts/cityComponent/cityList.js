@@ -35,7 +35,7 @@ export const cityList = (countryName) => {
   }
 
   contentElement.innerHTML += `
-    <h2 class="sectionTitle>Cities To Visit</h2>
+    <h2 class="sectionTitle">Cities To Visit</h2>
     <article class="list cities">
     ${cityHTMLRepresentation}
     </article>
