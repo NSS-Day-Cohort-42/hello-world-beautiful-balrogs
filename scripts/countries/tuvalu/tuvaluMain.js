@@ -4,8 +4,8 @@ import { landmarkList } from "../../landmarkComponent/landmarkList.js"
 import { introList } from "../../introComponent/introList.js"
 import { navBarLinkList } from "../../navBarLinkComponent/navBarLinkList.js"
 
-landmarkList('tuvalu')
-cityList('tuvalu')
-headOfStateList('tuvalu')
-introList('tuvalu')
 navBarLinkList()
+introList('tuvalu')
+cityList('tuvalu')
+landmarkList('tuvalu')
+headOfStateList('tuvalu')
