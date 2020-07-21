@@ -19,7 +19,7 @@ export const headOfStateList = (headOfStateName) => {
         headOfStateContent = useRomaniaHeadsOfState()
     } else if (headOfStateName === 'taiwan') {
         headOfStateContent = useTaiwanHeadsOfState()
-    } else if (headOfStateName === 'iceland') {
+    } else {
         headOfStateContent = useIcelandHeadsOfState()
     }
 
